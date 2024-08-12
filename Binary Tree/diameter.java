@@ -58,7 +58,7 @@ class Solution {
 }
 
 // Main class
-public class Main {
+public class diameter {
     // Main function
     public static void main(String[] args) {
         // Creating a sample binary tree
