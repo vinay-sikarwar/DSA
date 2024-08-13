@@ -16,7 +16,7 @@ class TreeNode {
 }
 
 public class maxWidth {
-    public int widthOfBinaryTree(TreeNode root) {
+    public static int widthOfBinaryTree(TreeNode root) {
         LinkedList<pair> q = new LinkedList<>();
 
         int max = Integer.MIN_VALUE;
@@ -68,9 +68,9 @@ public class maxWidth {
 
         Solution sol = new Solution();
 
-        int maxWidth = sol.widthOfBinaryTree(root);
+        int maxWid = maxWidth.widthOfBinaryTree(root);
 
-        System.out.println("Maximum width of the binary tree is: " + maxWidth);
+        System.out.println("Maximum width of the binary tree is: " + maxWid);
     }
 }
                             
